@@ -12,16 +12,20 @@ This project takes raw CSV source files and moves them through three progressive
 | **Silver** | Cleaned & standardized | Data type fixes, deduplication, null handling, business rule application |
 | **Gold** | Analytics-ready | Fact and dimension tables (star schema) built for querying and reporting |
 
+## Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+### Specifications
+- Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
+- Data Quality: Cleanse and resolve data quality issues prior to analysis.
+- Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- Scope: Focus on the latest dataset only; historization of data is not required.
+- Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
 ## Data Architecture
 
 <img width="651" height="340" alt="data_architecture" src="https://github.com/user-attachments/assets/b61b4475-df00-466a-9f86-e204a6fba049" />
 
-## Tools & Technologies
-
-- SQL Server
-- T-SQL (DDL, stored procedures, ETL logic)
-- Draw.io (architecture diagrams)
-- Git/GitHub (version control)
 
 ## Repository Structure
 
@@ -34,28 +38,11 @@ This project takes raw CSV source files and moves them through three progressive
 └── README.md
 ```
 
-## Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+## Tools & Technologies
 
-### Specifications
--Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
--Data Quality: Cleanse and resolve data quality issues prior to analysis.
--Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
--Scope: Focus on the latest dataset only; historization of data is not required.
--Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- SQL Server
+- T-SQL (DDL, stored procedures, ETL logic)
+- Draw.io (architecture diagrams)
+- Git/GitHub (version control)
 
 
